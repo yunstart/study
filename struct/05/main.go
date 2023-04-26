@@ -9,7 +9,7 @@ type Person struct {
 	age  int8
 }
 
-//构造函数
+//Person类型的构造函数
 func NewPerson(name string, age int8) *Person {
 	return &Person{
 		name: name,
